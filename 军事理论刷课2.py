@@ -33,11 +33,11 @@ driver.get('https://i.chaoxing.com')
 
 search_box_1 = driver.find_element(By.CLASS_NAME, "ipt-tel")
 # count = input("请输入你的账号：")
-search_box_1.send_keys('18740804120')
+search_box_1.send_keys('')
 
 search_box_2 = driver.find_element(By.CLASS_NAME, "ipt-pwd")
 # passport = input('请输入你的密码：')
-search_box_2.send_keys('1357988zx')
+search_box_2.send_keys('')
 
 button1 = driver.find_element(By.CLASS_NAME, "btns-box")
 button1.click()
